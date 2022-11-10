@@ -1,4 +1,4 @@
-# Human and Mouse genome assemblies customized for rDNA mapping, with annotation files and sample tracks
+## Human and Mouse genome assemblies customized for rDNA mapping, with annotation files and sample tracks
 
 **Files accompanying <ins>'Customized genomes for human and mouse ribosomal DNA mapping.' George SS, Pimkin M, Paralkar VR. bioRxiv (2022)</ins> are deposited here.**
 
