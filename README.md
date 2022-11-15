@@ -1,6 +1,6 @@
 ### Human and Mouse genome assemblies customized for rDNA mapping, with annotation files and sample tracks
 
-**Files accompanying <ins>'Customized genomes for human and mouse ribosomal DNA mapping.' George SS, Pimkin M, Paralkar VR. bioRxiv (2022)</ins> are deposited here.**
+**Files accompanying [<ins>'Customized genomes for human and mouse ribosomal DNA mapping.' George SS, Pimkin M, Paralkar VR. bioRxiv (2022)</ins>](https://www.biorxiv.org/content/10.1101/2022.11.10.514243v1) are deposited here.**
 
 This repository contains publicly accessible hg38 and mm39 genomes optimized for rDNA mapping with an additional chromosome R (chrR). Also contains annotation BED files depicting rDNA promoters, rRNA transcribed region, and intergenic spacer (IGS) regions on chrR, along with positive and negative control tracks (BWs) used for overall pipeline validation in the above preprint.
 
