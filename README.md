@@ -56,7 +56,7 @@ The contents of the gzipped tarball files are as follows:
      i.a. **Mouse_mm10-rDNA_genome_v1.0.tar.gz (870 MB)**: Contains *mm10(GRCm38)* genome masked for rDNA-like regions, with reference NCBI Genbank                  BK000964.3 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
      * *mm10-rDNA_v1.0.fa* and *mm10-rDNA_v1.0.fa.fai* 
 
-     i.b. **Mouse_mm10-rDNA_annotation_v1.0.tar.gz (2.30 MB)**: Contains standard RefSeq gene annotations for *mm10(GRCm38) * with additional custom                     annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                   BK000964.3 rDNA sequence. 
+     i.b. **Mouse_mm10-rDNA_annotation_v1.0.tar.gz (2.30 MB)**: Contains standard RefSeq gene annotations for *mm10(GRCm38)* with additional custom                     annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                   BK000964.3 rDNA sequence. 
      * *mm39-rDNA_v1.0.bed*
      * *Mouse_BK000964.3_Modified_Snapgene.dna*
      
