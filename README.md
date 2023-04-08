@@ -2,17 +2,17 @@
 
 **Files accompanying [<ins>'Customized genomes for human and mouse ribosomal DNA mapping.' George SS, Pimkin M, Paralkar VR. bioRxiv (2022)</ins>](https://www.biorxiv.org/content/10.1101/2022.11.10.514243v1) are deposited here.**
 
-This repository contains publicly accessible hg38 and mm39 genomes optimized for rDNA mapping with an additional chromosome R (chrR). Also contains annotation BED files depicting rDNA promoters, rRNA transcribed region, and intergenic spacer (IGS) regions on chrR, along with positive and negative control tracks (BWs) used for overall pipeline validation in the above preprint.
+This repository contains publicly accessible rDNA-customized versions of Human hg19 (GRCh37), hg38 (GRCh38), hs1 (T2T-CHM13) and Mouse mm10 (GRCm38), mm39 (GRCm39) genomes optimized for rDNA mapping with an additional chromosome R (chrR). Also contains annotation BED files depicting rDNA promoters, rRNA transcribed region, and intergenic spacer (IGS) regions on chrR, along with positive and negative control tracks (BWs) used for overall pipeline validation in the above preprint.
 
 
 The contents of the gzipped tarball files are as follows:
 
 1. <ins>**Human**</ins>
      
-     i.a. **Human_hg19-rDNA_genome_v1.0.tar.gz (871 MB)**: Contains *hg19(GRCh37)* genome masked for rDNA-like regions, with reference NCBI Genbank                   KY962518.1 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
+     i.a. **Human_hg19-rDNA_genome_v1.0.tar.gz (871 MB)**: Contains *hg19 (GRCh37)* genome masked for rDNA-like regions, with reference NCBI Genbank                   KY962518.1 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
      * *hg19-rDNA_v1.0.fa* and *hg19-rDNA_v1.0.fa.fai* 
 
-     i.b. **Human_hg19-rDNA_genome_v1.0_annotation.tar.gz (3.10 MB)**: Contains standard RefSeq gene annotations for *hg19(GRCh37)* with additional custom               annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                   KY962518.1 rDNA sequence. 
+     i.b. **Human_hg19-rDNA_genome_v1.0_annotation.tar.gz (3.10 MB)**: Contains standard RefSeq gene annotations for *hg19 (GRCh37)* with additional custom               annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                   KY962518.1 rDNA sequence. 
      * *hg19-rDNA_v1.0.bed*
      * *Human_KY962518.1_Modified_Snapgene.dna*
       
@@ -23,10 +23,10 @@ The contents of the gzipped tarball files are as follows:
      * *UBTF_Human_hg19-rDNA.bw* and *InputForUBTF_Human_hg19-rDNA.bw*
      * *EP300_Human_hg19-rDNA.bw* and *IGGForEP300_Human_hg19-rDNA.bw*
 
-     ii.a. **Human_hg38-rDNA_genome_v1.0.tar.gz (984 MB)**: Contains *hg38(GRCh38)* genome masked for rDNA-like regions, with reference NCBI Genbank                  KY962518.1 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
+     ii.a. **Human_hg38-rDNA_genome_v1.0.tar.gz (984 MB)**: Contains *hg38 (GRCh38)* genome masked for rDNA-like regions, with reference NCBI Genbank                  KY962518.1 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
      * *hg38-rDNA_v1.0.fa* and *hg38-rDNA_v1.0.fa.fai* 
 
-     ii.b. **Human_hg38-rDNA_genome_v1.0_annotation.tar.gz (3.10 MB)**: Contains standard RefSeq gene annotations for *hg38(GRCh38)* with additional custom                annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                  KY962518.1 rDNA sequence. 
+     ii.b. **Human_hg38-rDNA_genome_v1.0_annotation.tar.gz (3.10 MB)**: Contains standard RefSeq gene annotations for *hg38 (GRCh38)* with additional custom                annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                  KY962518.1 rDNA sequence. 
      * *hg38-rDNA_v1.0.bed*
      * *Human_KY962518.1_Modified_Snapgene.dna*
 
@@ -37,10 +37,10 @@ The contents of the gzipped tarball files are as follows:
      * *UBTF_Human_hg38-rDNA.bw* and *InputForUBTF_Human_hg38-rDNA.bw*
      * *EP300_Human_hg38-rDNA.bw* and *IGGForEP300_Human_hg38-rDNA.bw*
 
-     iii.a. **Human_hs1-rDNA_genome_v1.0.tar.gz (972 MB)**: Contains *hs1(T2T-CHM13)* genome masked for rDNA-like regions, with reference NCBI Genbank                 KY962518.1 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
+     iii.a. **Human_hs1-rDNA_genome_v1.0.tar.gz (972 MB)**: Contains *hs1 (T2T-CHM13)* genome masked for rDNA-like regions, with reference NCBI Genbank                 KY962518.1 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
      * *hs1-rDNA_v1.0.fa* and *hs1-rDNA_v1.0.fa.fai* 
 
-     iii.b. **Human_hs1-rDNA_genome_v1.0_annotation.tar.gz (2.90 MB)**: Contains standard RefSeq gene annotations for *hs1(T2T-CHM13)* with additional custom               annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                   KY962518.1 rDNA sequence. 
+     iii.b. **Human_hs1-rDNA_genome_v1.0_annotation.tar.gz (2.90 MB)**: Contains standard RefSeq gene annotations for *hs1 (T2T-CHM13)* with additional custom               annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                   KY962518.1 rDNA sequence. 
      * *hs1-rDNA_v1.0.bed* 
      * *Human_KY962518.1_Modified_Snapgene.dna*
      
@@ -53,10 +53,10 @@ The contents of the gzipped tarball files are as follows:
 
 2. <ins>**Mouse**</ins>
 
-     i.a. **Mouse_mm10-rDNA_genome_v1.0.tar.gz (870 MB)**: Contains *mm10(GRCm38)* genome masked for rDNA-like regions, with reference NCBI Genbank                  BK000964.3 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
+     i.a. **Mouse_mm10-rDNA_genome_v1.0.tar.gz (870 MB)**: Contains *mm10 (GRCm38)* genome masked for rDNA-like regions, with reference NCBI Genbank                  BK000964.3 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
      * *mm10-rDNA_v1.0.fa* and *mm10-rDNA_v1.0.fa.fai* 
 
-     i.b. **Mouse_mm10-rDNA_annotation_v1.0.tar.gz (2.30 MB)**: Contains standard RefSeq gene annotations for *mm10(GRCm38)* with additional custom                     annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                   BK000964.3 rDNA sequence. 
+     i.b. **Mouse_mm10-rDNA_annotation_v1.0.tar.gz (2.30 MB)**: Contains standard RefSeq gene annotations for *mm10 (GRCm38)* with additional custom                     annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                   BK000964.3 rDNA sequence. 
      * *mm39-rDNA_v1.0.bed*
      * *Mouse_BK000964.3_Modified_Snapgene.dna*
      
@@ -67,10 +67,10 @@ The contents of the gzipped tarball files are as follows:
      * *UBTF_Mouse_mm10-rDNA.bw* and *IGGForUBTF_Mouse_mm10-rDNA.bw*
      * *EP300_Mouse_mm10-rDNA.bw* and *IGGForEP300_Mouse_mm10-rDNA.bw*
 
-     ii.a. **Mouse_mm39-rDNA_genome_v1.0.tar.gz (871 MB)**: Contains *mm39(GRCm39)* genome masked for rDNA-like regions, with reference NCBI Genbank                 BK000964.3 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
+     ii.a. **Mouse_mm39-rDNA_genome_v1.0.tar.gz (871 MB)**: Contains *mm39 (GRCm39)* genome masked for rDNA-like regions, with reference NCBI Genbank                 BK000964.3 rDNA sequence modified (as described in preprint) and inserted as an additional *chrR*.
      * *mm39-rDNA_v1.0.fa* and *mm39-rDNA_v1.0.fa.fai* 
 
-     ii.b. **Mouse_mm39-rDNA_annotation_v1.0.tar.gz (2.20 MB)**: Contains standard RefSeq gene annotations for *mm39(GRCm39)* with additional custom                      annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                  BK000964.3 rDNA sequence. 
+     ii.b. **Mouse_mm39-rDNA_annotation_v1.0.tar.gz (2.20 MB)**: Contains standard RefSeq gene annotations for *mm39 (GRCm39)* with additional custom                      annotations for *chrR*. Also contains a Snapgene file with nucleotide sequence and annotation details for modified reference NCBI Genbank                  BK000964.3 rDNA sequence. 
      * *mm39-rDNA_v1.0.bed*
      * *Mouse_BK000964.3_Modified_Snapgene.dna*
 
